@@ -15,6 +15,7 @@
     "dist/*.js",
     "dist/*.mjs",
     "types/*.d.ts",
+    "CHANGELOG.md",
     "README.md"
   ],
   "keywords": [
@@ -26,10 +27,11 @@
   ],
   "typings": "types/index.d.ts",
   "scripts": {
+    "version": "yarn release:changelog && git add -A CHANGELOG.md",
     "lint": "yarn eslint ./src/**/*.ts",
     "build": "yarn rollup -c",
     "commit": "git-cz",
-    "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "test": "yarn jest --maxWorkers=2"
   },
   "engines": {
