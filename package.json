@@ -9,6 +9,22 @@
   "homepage": "https://github.com/Wojteek/diacritics-normalizr",
   "author": "Wojteek",
   "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist/*.js",
+    "dist/*.mjs",
+    "types/*.d.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "diacritics",
+    "accents",
+    "normalize",
+    "diacritic",
+    "string"
+  ],
+  "typings": "types/index.d.ts",
   "scripts": {
     "lint": "yarn eslint ./src/**/*.ts",
     "build": "yarn rollup -c",
