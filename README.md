@@ -1,4 +1,5 @@
 # diacritics-normalizr <!-- omit in toc -->
+[![Coverage Status](https://coveralls.io/repos/github/Wojteek/diacritics-normalizr/badge.svg?branch=master)](https://coveralls.io/github/Wojteek/diacritics-normalizr?branch=master)
 
 > It's a simple library for removing diacritics/accents from a string.
 
