@@ -1,5 +1,7 @@
 # diacritics-normalizr <!-- omit in toc -->
+![](https://github.com/Wojteek/diacritics-normalizr/workflows/Code%20Quality/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/Wojteek/diacritics-normalizr/badge.svg?branch=master)](https://coveralls.io/github/Wojteek/diacritics-normalizr?branch=master)
+[![Known Vulnerabilities](https://snyk.io//test/github/Wojteek/diacritics-normalizr/badge.svg?targetFile=package.json)](https://snyk.io//test/github/Wojteek/diacritics-normalizr?targetFile=package.json)
 
 > It's a simple library for removing diacritics/accents from a string.
 
