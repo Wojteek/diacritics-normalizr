@@ -11,6 +11,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "sideEffects": false,
   "files": [
     "dist/*.js",
     "dist/*.mjs",
