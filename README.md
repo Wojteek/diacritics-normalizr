@@ -2,6 +2,9 @@
 ![](https://github.com/Wojteek/diacritics-normalizr/workflows/Code%20Quality/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/Wojteek/diacritics-normalizr/badge.svg?branch=master)](https://coveralls.io/github/Wojteek/diacritics-normalizr?branch=master)
 [![Known Vulnerabilities](https://snyk.io//test/github/Wojteek/diacritics-normalizr/badge.svg?targetFile=package.json)](https://snyk.io//test/github/Wojteek/diacritics-normalizr?targetFile=package.json)
+[![Downloads](https://img.shields.io/npm/dw/diacritics-normalizr)](https://www.npmjs.com/package/diacritics-normalizr)
+[![Version](https://img.shields.io/npm/v/diacritics-normalizr)](https://www.npmjs.com/package/diacritics-normalizr)
+[![License](https://img.shields.io/npm/l/diacritics-normalizr)](https://www.npmjs.com/package/diacritics-normalizr)
 
 > It's a simple library for removing diacritics/accents from a string.
 
