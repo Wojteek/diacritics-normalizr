@@ -1,6 +1,6 @@
 {
   "name": "diacritics-normalizr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The simple library for removing diacritics/accents from a string.",
   "repository": "git@github.com:Wojteek/diacritics-normalizr.git",
   "bugs": {
