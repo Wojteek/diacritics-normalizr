@@ -15,7 +15,7 @@
   "files": [
     "dist/*.js",
     "dist/*.mjs",
-    "types/*.d.ts",
+    "types/**/*.d.ts",
     "CHANGELOG.md",
     "README.md"
   ],
