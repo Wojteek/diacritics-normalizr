@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-if [ -z "${GH_TOKEN}" ]; then
+if [[ -z "${GH_TOKEN}" ]]; then
   echo "\$GH_TOKEN environment variable doesn't exist!"
   exit 1
 fi
@@ -32,7 +32,7 @@ yarn publish . --tag $newVersionOfPackage
 
 read -p "Do you want to make a release? (y/n) " isRelease
 
-if [ "$isRelease" = "y" ]; then
+if [[ "$isRelease" = "y" ]]; then
   if ! node ./node_modules/conventional-github-releaser/src/cli.js -p angular -t $GH_TOKEN; then
     echo "Creating release was failed!"
     exit 1
