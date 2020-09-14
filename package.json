@@ -29,11 +29,11 @@
   "typings": "types/index.d.ts",
   "scripts": {
     "version": "yarn release:changelog && git add -A CHANGELOG.md",
-    "lint": "yarn eslint ./src/**/*.ts",
-    "build": "yarn rollup -c",
+    "lint": "eslint ./src/**/*.ts",
+    "build": "rollup -c",
     "commit": "git-cz",
     "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "test": "yarn jest --maxWorkers=2"
+    "test": "jest --maxWorkers=2"
   },
   "engines": {
     "node": ">= 7.10.1"
@@ -54,26 +54,26 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@types/jest": "^25.2.1",
-    "@typescript-eslint/eslint-plugin": "^2.29.0",
-    "@typescript-eslint/parser": "^2.29.0",
-    "commitizen": "^4.0.4",
-    "conventional-changelog-cli": "^2.0.31",
-    "conventional-github-releaser": "^3.1.3",
-    "conventional-recommended-bump": "^6.0.5",
-    "cz-conventional-changelog": "^3.1.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-jest": "^23.8.2",
-    "husky": "^4.2.5",
-    "jest": "^25.4.0",
-    "rollup": "^2.7.2",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@types/jest": "^26.0.13",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "commitizen": "^4.2.1",
+    "conventional-changelog-cli": "^2.1.0",
+    "conventional-github-releaser": "^3.1.5",
+    "conventional-recommended-bump": "^6.0.10",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-jest": "^24.0.1",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2",
+    "rollup": "^2.26.11",
     "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-typescript2": "^0.27.0",
-    "ts-jest": "^25.4.0",
-    "ts-node": "^8.9.0",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "ts-jest": "^26.3.0",
+    "ts-node": "^9.0.0",
     "tsconfig-paths": "^3.9.0",
-    "typescript": "^3.8.3"
+    "typescript": "^4.0.2"
   }
 }
